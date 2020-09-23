@@ -10,6 +10,8 @@ def input_to_index(input)
   input.to_i - 1
 end
 
-def move(board, idx, token)
-    board[idx] = token
+def move(array, index, value)
+    array[index] = value
 end
+
+move(board, 0, "X")
