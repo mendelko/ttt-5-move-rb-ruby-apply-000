@@ -13,4 +13,3 @@ end
 def move(board, idx, token)
     board[idx] = token
 end
-
